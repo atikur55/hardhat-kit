@@ -1,0 +1,35 @@
+// Notes
+
+// Installation
+npx install --save-dev hardhat
+
+// Packages
+@nomicfoundation/hardhat-toolbox
+
+
+//Import GLOBAL COMMANDS HARDHAT
+--config                A hardhat configuration file.
+--emoji                 use emojis in the message.
+--help                  Show this help message.
+--max-memory            The maximum amount of memory (in MB) Hardhat can use.
+--network               The network to connect to.
+--show-stack-traces     Show stack traces
+--tsconfig              A TypeScript configuration file.
+--verbose              Enable Hardhat verbose logging.
+--version               Show the Hardhat version.
+
+check                 Check whatever you need
+clean                 Clears the cache and deletes all artifacts
+compile               Compiles the entire project, building all artifacts
+console               Opens a hardhat console
+flatten               Flattens and prints contracts and their dependencies. If no file is passed, all the contracts in the project will be flattened.
+help                  Prints this message
+node                  Starts a JSON-RPC server on top of Hardhat Network
+run                   Runs a user-defined script after compiling the project
+test                  Runs mocha tests
+
+run: npx hardhat help
+
+run deploy: npx hardhat run scripts/deploy.js
+
+
